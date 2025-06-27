@@ -1,0 +1,5 @@
+(hansdon_book_excercises) bash-5.2$ python src/ch3_classification/precise_mnist_classifier.py
+cross_val_score [0.9376     0.94091429 0.93862857]
+Fitting 3 folds for each of 48 candidates, totalling 144 fits
+Best params: {'knc__algorithm': 'auto', 'knc__n_neighbors': 5, 'knc__p': 1, 'knc__weights': 'distance'}
+Best F1 score (macro): 0.9564449985766003
